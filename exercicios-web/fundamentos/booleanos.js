@@ -5,7 +5,7 @@ isAtivo = true
 console.log(isAtivo)
 
 isAtivo = 1
-console.log(!!isAtivo)
+console.log(!!isAtivo) //! negação !!volta para o valor original
 
 console.log('os verdadeiros...')
 console.log(!!3)
