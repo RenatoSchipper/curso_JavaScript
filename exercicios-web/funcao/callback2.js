@@ -5,16 +5,17 @@ const notasBaixas1 = []
 for (let i in notas) {
     if (notas[i] < 7) {
         notasBaixas1.push(notas[i])
+        //para adicionaR um elemento no array chama a funçao PUSH
     }
 }
 
 console.log(notasBaixas1)
 
 // Com callback
-const notasBaixas2 = notas.filter(function (nota) {
+const notasBaixas2 = notas.filter(function (nota) { 
     return nota < 7
+    //FILTER filtrar os elementos dentro do array em cima de um determinado critério
 })
-
 console.log(notasBaixas2)
 
 const notasMenorQue7 = nota => nota < 7
